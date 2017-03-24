@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoFx.Web", "OctoFx.Web\Oc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoFx.Core", "OctoFx.Core\OctoFx.Core.csproj", "{9BAA9B35-D22D-4237-AA01-EC9F2E347104}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoFx.WinService", "OctoFx.WinService\OctoFx.WinService.csproj", "{2933D351-27AF-4524-9CE2-948B6A389F15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9BAA9B35-D22D-4237-AA01-EC9F2E347104}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BAA9B35-D22D-4237-AA01-EC9F2E347104}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BAA9B35-D22D-4237-AA01-EC9F2E347104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2933D351-27AF-4524-9CE2-948B6A389F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2933D351-27AF-4524-9CE2-948B6A389F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2933D351-27AF-4524-9CE2-948B6A389F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2933D351-27AF-4524-9CE2-948B6A389F15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
