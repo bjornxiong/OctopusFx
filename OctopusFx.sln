@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoFx.WinService", "OctoFx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoFx.Database", "OctoFx.Database\OctoFx.Database.csproj", "{ED7B287E-B67C-4A3A-8148-6E47362920B2}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database1", "Database1\Database1.sqlproj", "{646D375C-34F3-417D-A0E9-AB5B53D9481B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{ED7B287E-B67C-4A3A-8148-6E47362920B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED7B287E-B67C-4A3A-8148-6E47362920B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED7B287E-B67C-4A3A-8148-6E47362920B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646D375C-34F3-417D-A0E9-AB5B53D9481B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646D375C-34F3-417D-A0E9-AB5B53D9481B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646D375C-34F3-417D-A0E9-AB5B53D9481B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{646D375C-34F3-417D-A0E9-AB5B53D9481B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646D375C-34F3-417D-A0E9-AB5B53D9481B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646D375C-34F3-417D-A0E9-AB5B53D9481B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
