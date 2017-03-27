@@ -17,6 +17,7 @@
     [Notes]           NTEXT          NULL,
     [ReportsTo]       INT            NULL,
     [PhotoPath]       NVARCHAR (255) NULL,
+    [PersonalEmail] NVARCHAR(200) NULL, 
     CONSTRAINT [PK_Employees] PRIMARY KEY CLUSTERED ([EmployeeID] ASC),
     CONSTRAINT [CK_Birthdate] CHECK ([BirthDate] < getdate()),
     CONSTRAINT [FK_Employees_Employees] FOREIGN KEY ([ReportsTo]) REFERENCES [dbo].[Employees] ([EmployeeID])
