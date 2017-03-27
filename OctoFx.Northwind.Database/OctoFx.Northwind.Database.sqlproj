@@ -105,9 +105,15 @@
     <Build Include="dbo\Stored Procedures\SalesByCategory.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Publish\UAT.publish.xml" />
-    <None Include="Publish\DEV.publish.xml" />
-    <None Include="Publish\PROD.publish.xml" />
+    <None Include="Publish\UAT.publish.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Publish\DEV.publish.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Publish\PROD.publish.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
