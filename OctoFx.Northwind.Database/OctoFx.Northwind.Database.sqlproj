@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{cd344e4a-13ef-4c08-ba13-d5cb4cc262bd}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -63,6 +63,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Views\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Publish" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Orders.sql" />
@@ -101,5 +102,10 @@
     <Build Include="dbo\Stored Procedures\CustOrdersOrders.sql" />
     <Build Include="dbo\Stored Procedures\CustOrderHist.sql" />
     <Build Include="dbo\Stored Procedures\SalesByCategory.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Publish\UAT.publish.xml" />
+    <None Include="Publish\DEV.publish.xml" />
+    <None Include="Publish\PROD.publish.xml" />
   </ItemGroup>
 </Project>
