@@ -106,13 +106,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Publish\UAT.publish.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
     </None>
     <None Include="Publish\DEV.publish.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
     </None>
     <None Include="Publish\PROD.publish.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
