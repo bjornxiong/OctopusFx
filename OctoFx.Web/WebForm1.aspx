@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+        <asp:Label runat="server" ID="ltl"></asp:Label>
     </div>
     </form>
 </body>
