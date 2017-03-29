@@ -1,1 +1,1 @@
-﻿[Environment]::SetEnvironmentVariable('FOO', 'bar', 'User')
+﻿if (-not (Test-Path env:FOO)) { $env:FOO = 'bar' }
