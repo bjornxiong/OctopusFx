@@ -1,1 +1,1 @@
-﻿if (-not (Test-Path env:FOO)) { $env:FOO = 'bar' }
+﻿$env:TestVar1="This is my environment variable"
